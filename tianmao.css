@@ -1,0 +1,328 @@
+body{
+    font-size:12px;
+    font-family:Arial;
+    min-width:1020px;
+}
+nav.top_outer {
+background-color: rgb(242, 242, 242);
+border-bottom:1px solid  #e7e7e7;
+}
+nav div.top {
+    margin: 0 auto;
+    width: 1027px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+nav div.top a, nav div.top span {
+    color: rgb(156, 155, 154);
+    margin: 0 10px;
+}
+nav div.top a:hover {
+    text-decoration: none;
+    color: rgb(196, 0, 0);
+}
+.redColor {
+    color: rgb(196, 0, 0) !important;
+}
+.reverse {
+    transform: rotateY(180deg); /*原来的购物车图标方向向左，改成向右*/
+}
+img#logo {
+    position: absolute;
+    left: 50%;
+    top: -45px;
+    transform: translateX(-190%);
+}
+div.search_outer {
+    position: relative;
+    margin: 0 auto;
+}
+div.searchDiv {
+    background-color: rgb(255, 0, 54);
+    width: 400px;
+    margin: 50px auto;
+    padding: 1px;
+    height: 40px;
+}
+div.searchDiv input {
+    outline: none;
+    width: 275px;
+    height: 36px;
+    margin: 1px;
+    border: 1px solid transparent;
+}
+div.searchDiv button {
+    background-color: rgb(255, 0, 54);
+    border: 1px solid transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 110px;
+}
+div.searchBelow span, div.searchBelow a {
+    color: rgb(134, 134, 134);
+    display: inline-block;
+    margin-top: -17px;
+}
+div.searchBelow>span>span {
+    margin: 20px;
+}
+div.searchBelow a:hover {
+    color: #C40000;
+    text-decoration: none;
+}
+footer {
+    /*position: relative;*/
+    /*margin-top: -400px;*/
+    border-top: 1px solid rgb(231, 231, 231);
+}
+div.footerImg {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid rgb(231, 231, 231);
+    margin: 0 auto;
+}
+div.footerMid {
+    padding: 30px 10px;
+    width: 1007px;
+    margin: 0 auto;
+}
+div.mid_column {
+    float: left;
+    width: 220px; 
+    top: 100px;
+}
+div.mid_column a {
+    display: block;
+    padding-top: 3px;
+    color:#999;
+}
+div.mid_column span.mid_column_title, div.mid_img span.mid_column_title {
+    color: #646464;
+    font-weight: bold;
+    font-size: 16px;
+}
+div.mid_column a:hover {
+    text-decoration:none;
+    color: #C40000;
+}
+div.footerLogo {
+    margin: 0 auto;
+    width: 1007px;
+}
+div.footerBelow_outer {
+    border-top: 2px solid rgb(196, 0, 0);
+    background-color: black;
+}
+div.footerBelow {
+    margin: 0 auto;
+    width: 1007px;
+    padding: 5px;
+}
+div.footerBelow .whiteLink a, div.footerBelow .whiteLink span {
+    color: white;
+    padding-right: 5px;
+}
+div.footerBelow .whiteLink, div.footerBelow .license {
+    padding: 5px 0 10px 5px;
+}
+div.footerBelow .license span {
+    color: rgb(151, 152, 156);
+}
+div.footerBelow .license div {
+    padding: 10px 0 5px 0;
+}
+div.footerBelow .whiteLink a:hover {
+    text-decoration: none;
+}
+div.item img {
+    width: 100%;
+}
+img.catEar {
+    position: absolute;
+    top: 159px;
+    width: 30px;
+    display: none;
+}
+div#carousel-outer {
+    width: 1000px;
+    margin: 20px auto;
+}
+div.headBar {
+    /* background-color: rgb(221, 39, 39); */
+}
+div.headBar div.head {
+    display: inline-block;
+    width: 200px;
+    height: 36px;
+    line-height: 36px;
+    font-weight: bold; 
+    font-size: 16px;
+    margin:0 20px 0 0px; 
+    color: white;
+    background-color: #C60A0A;
+    padding-left: 10px;
+}
+div.headBar div.rightMenu {
+    display: inline-block;
+}
+div.headBar div.rightMenu img {
+    height: 26px;
+}
+div.headBar div.rightMenu span {
+    margin-right: 16px;
+}
+div.headBar div.rightMenu span a {
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+div.headBar div.rightMenu img#tmall {
+    display: inline;
+    width: 50%;
+}
+div#headBar_fill {
+    position: relative;
+    width: 100%;
+    height: 36.5px;
+ /* background-color: rgb(221, 39, 39); */
+    top: -480px;
+    z-index: -1;
+}
+div#carousel_fill {
+    position: relative;
+    width: 100%;
+    height: 428px;
+    background-color: rgb(232, 232, 232);
+    top: -480px;
+    z-index: -1;
+}
+div.category {
+    width: 1000px;
+    /*position: absolute;
+    top: 204px;
+    left: 48.7%;
+    transform: translateX(-50%);*/
+    position: relative;
+    margin: 0 auto;
+    top: -908px;
+    /*尽量使得outer框为relative，若使用absolute脱离文档流则会出现缩放移位问题*/
+}
+div.category div.categoryMenu_list {
+    width: 200px;
+    line-height: 20px;
+    /*border: 1px solid red;*/
+    padding: 5px;
+    padding-left: 8px;
+    font-size: 13px;
+    background-color: rgb(226, 226, 227);
+}
+div.category div.categoryMenu_list a {
+    margin-left: 5px;
+    color: black;
+}
+div.category div.categoryMenu_list:hover {
+    background-color: white;
+}
+div.category div.categoryMenu_list:hover a {
+    text-decoration: none;
+    color: rgb(135, 206, 250);
+}
+div.category div.categoryContent {
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    font-size: 13px;
+    width: 800px;
+    height: 430px;
+    /*padding-top: 15px;*/
+    padding-left: 100px;
+    background-color: white;
+    z-index: 99;
+    display: none;
+}
+div.category div.categoryContent div.row {
+    width: 650px;
+    line-height: 50px;
+    border-bottom: 1px dashed lightgray;
+}
+div.category div.categoryContent div.row a {
+    color: rgb(165, 165, 165);
+    margin: 8px;
+}
+div.category div.categoryContent div.row a:nth-child(even) {
+    color: rgb(135, 206, 250);
+}
+div.category div.categoryContent div.row a:hover {
+    text-decoration: none;
+    color: rgb(209, 55, 55);
+}
+div.categoryProducts_outer {
+    position: relative;
+    width: 1010px;
+    top: -890px;
+    margin: 0 auto;
+    padding: 15px 0px;
+    background-color: rgb(245, 245, 245);
+}
+div.eachCategoryProducts {
+    position: relative;
+    margin-top: 30px;
+}
+div.eachCategoryProducts div.leftMark {
+    width: 4px;
+    height: 20px;
+    background-color: rgb(25, 200, 169);
+    display: inline-block;
+    margin: 15px 10px;
+
+} 
+div.eachCategoryProducts span.eachCategoryTitle {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(107, 100, 100);
+    position: absolute;
+    top: 15px;
+}
+div.eachCategoryProducts div.clear {
+    clear: both;
+}
+div.eachCategoryProducts div.productsItem {
+    width: 190px;
+    background-color: white;
+    padding-bottom: 15px;
+    float: left;
+    margin-left: 10px; 
+}
+div.eachCategoryProducts div.productsItem a.productsItemDesc {
+    display: inline-block;
+    margin: 15px 10px 10px 10px;
+    color: gray;
+    text-decoration: none;
+}
+div.eachCategoryProducts div.productsItem span.productsItemPrice {
+    margin-left: 10px;
+    font-size: 15px;
+    color: red;
+}
+div.categoryProducts_outer img.endPng {
+    display: inline-block;
+    width: 100px;
+    position: relative;
+    margin-top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+div.eachCategoryProducts div.productsItem:hover {
+    outline: 0.5px solid red;
+    /*不使用border，border会破坏水平布局*/
+}
+div.eachCategoryProducts div.productsItem img:hover {
+    opacity: 0.7;
+}
+div.xrCode {
+    position: absolute;
+    top: 2600px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
